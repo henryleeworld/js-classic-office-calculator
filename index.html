@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="????????" />
+        <meta property="og:description" content="????????,??????????,????????????????,???????????MC?MR?M-?M+?M ? Memorize(??)???,R ? Recall(???)?C ? Clear(??),M+ ? M- ?????????????" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&family=Share+Tech+Mono&family=Slabo+27px&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/calculator.css" />
+        <title>????????</title>
+    </head>
+    <body>
+        <body class="body">
+            <div class="calculator">
+                <div class="calculator-top">
+                    <div class="calculator-heading">
+                        <h1 class="calculator-title">HENRY</h1>
+                        <h2 class="calculator-subtitle">HL-001</h2>
+                    </div>
+                    <div class="calculator-sun-battery-container">
+                        <div class="calculator-sun-battery"></div>
+                    </div>
+                </div>
+                <div class="calculator-screen-container">
+                    <p class="calculator-screen-mem">M</p>
+                    <input type="text" class="calculator-screen" name="screen" value="0" maxlength="10" disabled />
+                </div>
+                <div class="calculator-keyboard">
+                    <button type="button" data-type="clear" class="button button-type-reset" value="C">C</button>
+                    <button type="button" data-type="memory" class="button button-type-memory" value="MRC">MRC</button>
+                    <button type="button" data-type="memory" class="button button-type-memory" value="MMINUS">M-</button>
+                    <button type="button" data-type="memory" class="button button-type-memory" value="MPLUS">M+</button>
+                    <button type="button" data-type="function" class="button button-type-advanced" value="NEGATE">+/-</button>
+                    <button type="button" data-type="function" class="button button-type-advanced" value="PERCENT">%</button>
+                    <button type="button" data-type="function" class="button button-type-advanced" value="SQUARE">
+                        <svg class="square-symbol" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 10l5 11h2.5l6-19H33" stroke="#fff" stroke-width="3" />
+                        </svg>
+                    </button>
+                    <button type="button" data-type="function" class="button button-type-operation" value="BACKSPACE">
+                        <svg class="backspace-symbol" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2l-9 9 9 9M3 11h24" stroke="#fff" stroke-width="3" />
+                        </svg>
+                    </button>
+                    <button type="button" data-type="number" class="button button-type-number" value="7">7</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="8">8</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="9">9</button>
+                    <button type="button" data-type="operation" class="button button-type-operation" value="DIVIDE">÷</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="4">4</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="5">5</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="6">6</button>
+                    <button type="button" data-type="operation" class="button button-type-operation" value="MULTIPLY">×</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="1">1</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="2">2</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="3">3</button>
+                    <button type="button" data-type="operation" class="button button-type-operation" value="SUBTRACT">-</button>
+                    <button type="button" data-type="number" class="button button-type-number" value="0">0</button>
+                    <button type="button" data-type="number" class="button button-type-number" value=".">.</button>
+                    <button type="button" data-type="equals" class="button button-type-operation" value="EQUALS">=</button>
+                    <button type="button" data-type="operation" class="button button-type-operation" value="ADD">+</button>
+                </div>
+            </div>
+        </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.0.2/math.min.js" defer></script>
+        <script src="js/calculator.js" defer></script>
+    </body>
+</html>
